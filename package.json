@@ -1,0 +1,23 @@
+{
+  "name": "BlogProject",
+  "version": "1.0.0",
+  "description": "以学习技术为主，WYG-Blog将开发以下功能",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "commitmsg": "validate-commit-msg",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
